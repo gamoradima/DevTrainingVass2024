@@ -69,6 +69,47 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			},
 			{
 				"operation": "insert",
+				"name": "Button_6tomrxf",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_6tomrxf_caption)#",
+					"color": "default",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"icon": "actions-button-icon",
+					"menuItems": [],
+					"clickMode": "menu"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "CalcAvgPriceMenuItem",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(MenuItem_san9se8_caption)#",
+					"visible": true,
+					"icon": "calculator-icon",
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrCalculateAveragePriceProcess",
+							"processRunType": "ForTheSelectedPage",
+							"showNotification": true,
+							"recordIdProcessParameterName": "RealtyIdParameter"
+						}
+					}
+				},
+				"parentName": "Button_6tomrxf",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "Button_0r5lv2g",
 				"values": {
 					"type": "crt.Button",
@@ -82,7 +123,7 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"clicked": {
 						"request": "crt.RunBusinessProcessRequest",
 						"params": {
-							"processName": "UsrAddRealtyVisitsProcess",
+							"processName": "UsrAddRealtyVisitsProcessUsrRealty1",
 							"processRunType": "ForTheSelectedPage",
 							"showNotification": true,
 							"recordIdProcessParameterName": "RealtyIdParameter"
@@ -92,7 +133,7 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				},
 				"parentName": "CardToggleContainer",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -178,6 +219,193 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				"parentName": "SideAreaProfileContainer",
 				"propertyName": "items",
 				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainerIndicatorsAreHere",
+				"values": {
+					"type": "crt.GridContainer",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"rows": "minmax(max-content, 32px)",
+					"gap": {
+						"columnGap": "none",
+						"rowGap": "none"
+					},
+					"items": [],
+					"fitContent": true,
+					"visible": true,
+					"color": "#CCEDFC",
+					"borderRadius": "none",
+					"padding": {
+						"top": "none",
+						"right": "none",
+						"bottom": "none",
+						"left": "none"
+					},
+					"alignItems": "stretch"
+				},
+				"parentName": "SideContainer",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "VisitsCountIndicatorWidget",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.IndicatorWidget",
+					"config": {
+						"title": "#ResourceString(IndicatorWidget_t92dn21_title)#",
+						"data": {
+							"providing": {
+								"attribute": "IndicatorWidget_t92dn21_Data",
+								"schemaName": "UsrRealtyVisit",
+								"filters": {
+									"filter": {
+										"items": {},
+										"logicalOperation": 0,
+										"isEnabled": true,
+										"filterType": 6,
+										"rootSchemaName": "UsrRealtyVisit"
+									},
+									"filterAttributes": []
+								},
+								"aggregation": {
+									"column": {
+										"orderDirection": 0,
+										"orderPosition": -1,
+										"isVisible": true,
+										"expression": {
+											"expressionType": 1,
+											"functionArgument": {
+												"expressionType": 0,
+												"columnPath": "Id"
+											},
+											"functionType": 2,
+											"aggregationType": 1,
+											"aggregationEvalType": 2
+										}
+									}
+								},
+								"dependencies": [
+									{
+										"attributePath": "UsrParentRealty",
+										"relationPath": "PDS.Id"
+									}
+								]
+							},
+							"formatting": {
+								"type": "number",
+								"decimalSeparator": ".",
+								"decimalPrecision": 0,
+								"thousandSeparator": ","
+							}
+						},
+						"text": {
+							"template": "#ResourceString(IndicatorWidget_t92dn21_template)#",
+							"metricMacros": "{0}",
+							"fontSizeMode": "medium",
+							"labelPosition": "above-under"
+						},
+						"layout": {
+							"color": "turquoise",
+							"icon": {
+								"iconName": "diagram-icon"
+							}
+						},
+						"theme": "full-fill"
+					},
+					"visible": true
+				},
+				"parentName": "GridContainerIndicatorsAreHere",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "IndicatorWidget_zycv2wa",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 1,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.IndicatorWidget",
+					"config": {
+						"title": "#ResourceString(IndicatorWidget_zycv2wa_title)#",
+						"data": {
+							"providing": {
+								"attribute": "IndicatorWidget_zycv2wa_Data",
+								"schemaName": "UsrRealtyVisit",
+								"filters": {
+									"filter": {
+										"items": {},
+										"logicalOperation": 0,
+										"isEnabled": true,
+										"filterType": 6,
+										"rootSchemaName": "UsrRealtyVisit"
+									},
+									"filterAttributes": []
+								},
+								"aggregation": {
+									"column": {
+										"orderDirection": 0,
+										"orderPosition": -1,
+										"isVisible": true,
+										"expression": {
+											"expressionType": 1,
+											"functionArgument": {
+												"expressionType": 0,
+												"columnPath": "UsrVisitDateTime"
+											},
+											"functionType": 2,
+											"aggregationType": 5,
+											"aggregationEvalType": 0
+										}
+									}
+								},
+								"dependencies": [
+									{
+										"attributePath": "UsrParentRealty",
+										"relationPath": "PDS.Id"
+									}
+								]
+							},
+							"formatting": {
+								"type": "datetime",
+								"date": {
+									"display": true
+								},
+								"time": {
+									"display": false
+								}
+							}
+						},
+						"text": {
+							"template": "#ResourceString(IndicatorWidget_zycv2wa_template)#",
+							"metricMacros": "{0}",
+							"fontSizeMode": "small",
+							"labelPosition": "above-under"
+						},
+						"layout": {
+							"color": "orange"
+						},
+						"theme": "full-fill"
+					},
+					"visible": true
+				},
+				"parentName": "GridContainerIndicatorsAreHere",
+				"propertyName": "items",
+				"index": 1
 			},
 			{
 				"operation": "insert",

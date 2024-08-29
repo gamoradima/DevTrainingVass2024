@@ -21,6 +21,9 @@
 			<Item Name="BaseElements.DefaultSequenceFlow3.Caption" Value="Other" />
 			<Item Name="BaseElements.FormulaTask1.Caption" Value="set N from page" />
 			<Item Name="BaseElements.FormulaTask2.Caption" Value="N = N - 1" />
+			<Item Name="BaseElements.FormulaTask3.Caption" Value="set Realty id from signal" />
+			<Item Name="BaseElements.FormulaTask4.Caption" Value="N = 3" />
+			<Item Name="BaseElements.FormulaTask5.Caption" Value="set realty id from update signal" />
 			<Item Name="BaseElements.LinkEntityToProcessUserTask1.Caption" Value="connect process instance to the Realty record" />
 			<Item Name="BaseElements.LinkEntityToProcessUserTask1.Parameters.EntityId.Caption" Value="Object" />
 			<Item Name="BaseElements.LinkEntityToProcessUserTask1.Parameters.EntityId.DisplayValue" Value="[#Realty Id#]" />
@@ -86,6 +89,10 @@
 			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.UseCardProcessModule.DisplayValue" Value="false" />
 			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.UsrVisitsNumberParameter.Caption" Value="Number of visits" />
 			<Item Name="BaseElements.StartEvent1.Caption" Value="Start" />
+			<Item Name="BaseElements.StartSignal1.Caption" Value="Realty added" />
+			<Item Name="BaseElements.StartSignal1.Parameters.RecordId.Caption" Value="Unique identifier of record" />
+			<Item Name="BaseElements.StartSignal2.Caption" Value="Realty updated" />
+			<Item Name="BaseElements.StartSignal2.Parameters.RecordId.Caption" Value="Unique identifier of record" />
 			<Item Name="BaseElements.TerminateEvent1.Caption" Value="Finish" />
 			<Item Name="BaseElements.TerminateEvent2.Caption" Value="Error - N is out of range" />
 			<Item Name="BaseElements.TerminateEvent3.Caption" Value="Cancel" />

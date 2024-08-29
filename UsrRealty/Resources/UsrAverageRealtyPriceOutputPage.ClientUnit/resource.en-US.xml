@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Average realty price output page" />
+			<Item Name="LocalizableStrings.PageTitle_caption.Value" Value="Average price results" />
+			<Item Name="Parameters.71c3465a-4b82-cc3e-cc38-cbc221de421c.Caption" Value="Average price, GBP" />
+			<Item Name="Parameters.eaa35191-438b-6460-49df-a47fdadd15f8.Caption" Value="SQL text" />
+		</Items>
+	</Group>
+</Resources>
