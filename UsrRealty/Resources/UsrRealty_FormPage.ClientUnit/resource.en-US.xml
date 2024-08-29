@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Realty form page" />
+			<Item Name="LocalizableStrings.addRecord_2vunj3t_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_3c6ptf0_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_6tbvsb5_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_ray5gvl_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_vshmac7_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.Button_0r5lv2g_caption.Value" Value="Add visits" />
+			<Item Name="LocalizableStrings.ExpansionPanel_93vd52i_title.Value" Value="Realty visit" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_zy8vplw_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_f4geyg6_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_hqxguvu_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_bvqri6p_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_a15t9fz_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_s3ox1br_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.NumberInput_x8x6qig_label.Value" Value="Number" />
+			<Item Name="LocalizableStrings.UsrName_placeholder.Value" Value="put realty name here please" />
+			<Item Name="LocalizableStrings.UsrName_tooltip.Value" Value="Tooltip example" />
+		</Items>
+	</Group>
+</Resources>

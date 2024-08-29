@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Input number mini page" />
+			<Item Name="LocalizableStrings.ValueIsOutOfRange110.Value" Value="Value is out of range (from 1 to 10)" />
+			<Item Name="Parameters.68afe16d-c960-c4b8-18c5-56a90fd41f84.Caption" Value="Number of visits" />
+		</Items>
+	</Group>
+</Resources>

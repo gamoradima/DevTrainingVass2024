@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.069307e1-07de-17f6-2edb-aa305477e08b.Caption" Value="Make elements required: Price, GBP" />
+			<Item Name="AddonConfig.Rules.3f9c6d71-f424-1925-997a-561428093070.Caption" Value="Show elements: Comment" />
+			<Item Name="Caption" Value="Realty form page (Business rules)" />
+		</Items>
+	</Group>
+</Resources>
