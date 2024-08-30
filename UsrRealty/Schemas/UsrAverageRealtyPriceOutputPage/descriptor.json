@@ -8,6 +8,7 @@
       "Name": "PageWithTopAreaAndTabsFreedomTemplate"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Average realty price output page"
+    "Caption": "Average realty price output page",
+    "DependsOn": []
   }
 }

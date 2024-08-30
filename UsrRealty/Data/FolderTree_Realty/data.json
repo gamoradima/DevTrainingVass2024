@@ -1,0 +1,54 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "545584bc-1479-80f2-060a-8b6c6a9f15a1"
+        },
+        {
+          "SchemaColumnUId": "3eeccc43-40ef-720b-61dd-0ec7d5266fd1",
+          "Value": "eyJpdGVtcyI6eyJiNWFiYTNlYi0yZjNiLTRmYTItYTFiZS05MzE0ZDM3YTE4ODAiOnsiZmlsdGVyVHlwZSI6NCwiY29tcGFyaXNvblR5cGUiOjMsImlzRW5hYmxlZCI6dHJ1ZSwidHJpbURhdGVUaW1lUGFyYW1ldGVyVG9EYXRlIjpmYWxzZSwibGVmdEV4cHJlc3Npb24iOnsiZXhwcmVzc2lvblR5cGUiOjAsImNvbHVtblBhdGgiOiJVc3JPZmZlclR5cGUifSwiaXNBZ2dyZWdhdGl2ZSI6ZmFsc2UsImRhdGFWYWx1ZVR5cGUiOjEwLCJyZWZlcmVuY2VTY2hlbWFOYW1lIjoiVXNyUmVhbHR5T2ZmZXJUeXBlIiwicmlnaHRFeHByZXNzaW9ucyI6W3siZXhwcmVzc2lvblR5cGUiOjIsInBhcmFtZXRlciI6eyJkYXRhVmFsdWVUeXBlIjoxMCwidmFsdWUiOnsiTmFtZSI6IjEuIFNhbGUiLCJJZCI6IjRmYTJhMGQyLTc4MWYtNGViNy1hM2RhLTU5ZjU3ZjUyM2M4MSIsInZhbHVlIjoiNGZhMmEwZDItNzgxZi00ZWI3LWEzZGEtNTlmNTdmNTIzYzgxIiwiZGlzcGxheVZhbHVlIjoiMS4gU2FsZSJ9fX1dfX0sImxvZ2ljYWxPcGVyYXRpb24iOjAsImlzRW5hYmxlZCI6dHJ1ZSwiZmlsdGVyVHlwZSI6Niwicm9vdFNjaGVtYU5hbWUiOiJVc3JSZWFsdHkifQ=="
+        },
+        {
+          "SchemaColumnUId": "527b9e4e-7dbf-4721-a112-72b423b3365a",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "6035e08c-6eb9-7544-dd2d-b150723f609b",
+          "Value": "UsrRealty"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1725019419858+0300)\/"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "f5eeb97b-992f-eaa2-8e15-a834fd1094b7"
+        },
+        {
+          "SchemaColumnUId": "3eeccc43-40ef-720b-61dd-0ec7d5266fd1",
+          "Value": "eyJpdGVtcyI6eyIwMTY4MDJhMS0xNjc0LTRiODItODliMi0xODIxNDljZDVmNDEiOnsiZmlsdGVyVHlwZSI6MSwiY29tcGFyaXNvblR5cGUiOjgsImlzRW5hYmxlZCI6dHJ1ZSwidHJpbURhdGVUaW1lUGFyYW1ldGVyVG9EYXRlIjpmYWxzZSwibGVmdEV4cHJlc3Npb24iOnsiZXhwcmVzc2lvblR5cGUiOjMsImZ1bmN0aW9uVHlwZSI6MiwiYWdncmVnYXRpb25UeXBlIjoxLCJjb2x1bW5QYXRoIjoiW1VzclJlYWx0eVZpc2l0OlVzclBhcmVudFJlYWx0eV0uSWQiLCJzdWJGaWx0ZXJzIjp7Iml0ZW1zIjp7fSwibG9naWNhbE9wZXJhdGlvbiI6MCwiaXNFbmFibGVkIjp0cnVlLCJmaWx0ZXJUeXBlIjo2LCJyb290U2NoZW1hTmFtZSI6IlVzclJlYWx0eVZpc2l0Iiwia2V5IjoiN2E3NmNlM2UtYWUzZS00NjRiLTk0ZmYtZWM0NTg5MmQ1MzcyIn19LCJpc0FnZ3JlZ2F0aXZlIjp0cnVlLCJkYXRhVmFsdWVUeXBlIjo0LCJyaWdodEV4cHJlc3Npb24iOnsiZXhwcmVzc2lvblR5cGUiOjIsInBhcmFtZXRlciI6eyJkYXRhVmFsdWVUeXBlIjo0LCJ2YWx1ZSI6NX19LCJzdWJGaWx0ZXJzIjp7Iml0ZW1zIjp7fSwibG9naWNhbE9wZXJhdGlvbiI6MCwiaXNFbmFibGVkIjp0cnVlLCJmaWx0ZXJUeXBlIjo2LCJyb290U2NoZW1hTmFtZSI6IlVzclJlYWx0eVZpc2l0Iiwia2V5IjoiN2E3NmNlM2UtYWUzZS00NjRiLTk0ZmYtZWM0NTg5MmQ1MzcyIn19fSwibG9naWNhbE9wZXJhdGlvbiI6MCwiaXNFbmFibGVkIjp0cnVlLCJmaWx0ZXJUeXBlIjo2LCJyb290U2NoZW1hTmFtZSI6IlVzclJlYWx0eSJ9"
+        },
+        {
+          "SchemaColumnUId": "527b9e4e-7dbf-4721-a112-72b423b3365a",
+          "Value": "null",
+          "DisplayValue": ""
+        },
+        {
+          "SchemaColumnUId": "6035e08c-6eb9-7544-dd2d-b150723f609b",
+          "Value": "UsrRealty"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1725019483981+0300)\/"
+        }
+      ]
+    }
+  ]
+}

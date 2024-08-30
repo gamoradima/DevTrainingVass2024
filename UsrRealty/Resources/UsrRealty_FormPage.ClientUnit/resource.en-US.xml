@@ -21,6 +21,7 @@
 			<Item Name="LocalizableStrings.IndicatorWidget_t92dn21_title.Value" Value="Visits count" />
 			<Item Name="LocalizableStrings.IndicatorWidget_zycv2wa_template.Value" Value="{0}" />
 			<Item Name="LocalizableStrings.IndicatorWidget_zycv2wa_title.Value" Value="Max visit date" />
+			<Item Name="LocalizableStrings.MenuItem_mw7qdhj_caption.Value" Value="Run web service - calc max price" />
 			<Item Name="LocalizableStrings.MenuItem_san9se8_caption.Value" Value="Start average price calculation process" />
 			<Item Name="LocalizableStrings.NumberInput_x8x6qig_label.Value" Value="Number" />
 			<Item Name="LocalizableStrings.UsrName_placeholder.Value" Value="put realty name here please" />
